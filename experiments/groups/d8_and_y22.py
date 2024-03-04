@@ -3,8 +3,8 @@
 
 from sympy.combinatorics import DihedralGroup, SymmetricGroup
 
-from mathtools.comb.young import YoungTableau
-from mathtools.groups import iso, young
+from maths.comb.young import YoungTableau
+from maths.groups import iso, young
 
 
 def create_s4():

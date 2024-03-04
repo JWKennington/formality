@@ -1,9 +1,9 @@
 """Young fused-row group orders"""
 from sympy.combinatorics import PermutationGroup, DihedralGroup, SymmetricGroup
 
-from mathtools.comb import partition
-from mathtools.comb.young import YoungTableau
-from mathtools.groups import young
+from maths.comb import partition
+from maths.comb.young import YoungTableau
+from maths.groups import young
 
 
 def check_effect_of_row_fusing_on_orders(n: int):

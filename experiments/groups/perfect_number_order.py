@@ -6,8 +6,8 @@ import operator
 from sympy.combinatorics import DihedralGroup, SymmetricGroup
 from sympy.ntheory import factor_ as factor
 
-from mathtools.comb.young import YoungTableau
-from mathtools.groups import young, iso
+from maths.comb.young import YoungTableau
+from maths.groups import young, iso
 
 
 def generate_perfect_partitions(max_n: int):
