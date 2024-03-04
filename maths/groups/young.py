@@ -6,7 +6,7 @@ from typing import List
 
 from sympy.combinatorics import Permutation, PermutationGroup
 
-from mathtools.comb.young import YoungTableau
+from maths.comb.young import YoungTableau
 
 
 def row_generators(yt: YoungTableau) -> List[Permutation]:

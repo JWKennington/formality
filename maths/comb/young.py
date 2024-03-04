@@ -5,7 +5,7 @@ from typing import Union, List
 
 from sympy.combinatorics import IntegerPartition
 
-from mathtools.comb import partition
+from maths.comb import partition
 
 
 class YoungTableau:
