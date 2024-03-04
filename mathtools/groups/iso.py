@@ -15,7 +15,7 @@ class IsoMethod(str, enum.Enum):
 	ElementOrders = "element_orders"
 
 
-def is_iso_possible(A: PermutationGroup, B: PermutationGroup) -> bool:
+def is_iso_possible(A: PermutationGroup, B: PermutationGroup, include_degree: bool = False) -> bool:
 	"""Check if isomorphism between permutation groups A and B is possible.
 
 	Args:
@@ -32,7 +32,7 @@ def is_iso_possible(A: PermutationGroup, B: PermutationGroup) -> bool:
 		return False
 
 	# Check if the groups have the same degree
-	if A.degree != B.degree:
+	if include_degree and A.degree != B.degree:
 		return False
 
 	# Check if the group elements have the same orders and order-multiplicities
