@@ -1,7 +1,7 @@
 # MATHematical EXPeriments: `mathexp`
 
 [![PyPI version](https://badge.fury.io/py/mathexp.svg)](https://badge.fury.io/py/mathexp)
-[![Build Status](https://travis-ci.com/jwkennington/mathexp.svg?branch=main)](https://travis-ci.com/jwkennington/mathexp)
+[![Build](https://github.com/JWKennington/mathexp/actions/workflows/build.yml/badge.svg)](https://github.com/JWKennington/mathexp/actions/workflows/build.yml)
 [![codecov](https://codecov.io/gh/jwkennington/mathexp/branch/main/graph/badge.svg?token=3Z3Z3Z3Z3Z)](https://codecov.io/gh/jwkennington/mathexp)
 [![CodeFactor](https://www.codefactor.io/repository/github/jwkennington/mathexp/badge)](https://www.codefactor.io/repository/github/jwkennington/mathexp)
 [![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-391/)
