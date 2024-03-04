@@ -56,7 +56,6 @@ def generate_rlen_2_tableaus(max_n: int):
     data = [('Partition', 'Group', 'Group (fused rows)', 'Group (no fused rows)', 'Dihedral', 'Symmetric')]
     for n in range(2, max_n):
         p = n * [2]
-        N = sum(p)
         K = functools.reduce(operator.mul, p, 1)
         yt_p = YoungTableau(p)
 

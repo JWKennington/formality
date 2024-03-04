@@ -43,6 +43,7 @@ def create_y22_row_fused():
 
 
 def check_iso(A, B, a_name, b_name, verbose: bool = False):
+    """Check isomorphism between two groups"""
     possible = iso.is_iso_possible(A, B)
     print(f"Is isomorphism possible: {a_name} and {b_name}? {possible}")
 

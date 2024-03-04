@@ -1,5 +1,5 @@
 """Young fused-row group orders"""
-from sympy.combinatorics import PermutationGroup, DihedralGroup, SymmetricGroup
+from sympy.combinatorics import DihedralGroup, SymmetricGroup
 
 from maths.comb import partition
 from maths.comb.young import YoungTableau
