@@ -10,7 +10,7 @@ here = pathlib.Path(__file__).parent.resolve()
 long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(name="mathexp",
-      version="0.0.1",
+      version="0.0.2",
       description="Mathematical Experiments",
       long_description=long_description,
       long_description_content_type="text/markdown",
@@ -28,23 +28,23 @@ setup(name="mathexp",
           "Programming Language :: Python :: 3.10",
           "Programming Language :: Python :: 3 :: Only",
       ],
-      keywords="topic reference, bibliography, education, reference index",
-      packages=find_packages(),
+      keywords="symbolic math, combinatorics, finite groups",
+      packages=['maths'],
       python_requires=">=3.7, <4",
-      install_requires=["pyyaml"],
+      install_requires=["sympy"],
       extras_require={  # Optional
           "dev": ["check-manifest"],
           "test": ["pytest", "pytest-cov"],
       },
-      entry_points={  # Optional
-          "console_scripts": [
-              "torus=scripts.torus:main",
-          ],
-      },
+      # entry_points={  # Optional
+      #     "console_scripts": [
+      #         "torus=scripts.torus:main",
+      #     ],
+      # },
       project_urls={  # Optional
-          "Bug Reports": "https://github.com/JWKennington/torus/issues",
+          "Bug Reports": "https://github.com/JWKennington/mathexp/issues",
           "Funding": "https://www.buymeacoffee.com/locallytrivial",
-          "Source": "https://github.com/JWKennington/torus",
-          "Documentation": "https://torus.readthedocs.io/en/latest/"
+          "Source": "https://github.com/JWKennington/mathexp",
+          "Documentation": "https://mathexp.readthedocs.io/en/latest/"
       },
       )
