@@ -1,0 +1,16 @@
+# Environment file for the project
+name: mathexp-env
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - numpy
+  - pandas
+  - plotly
+  - pytest
+  - pytest-cov
+  - matplotlib
+  - jupyterlab
+  - sympy
