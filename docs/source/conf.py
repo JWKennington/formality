@@ -8,7 +8,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Mathematical Experiments'
+project = 'Formality'
 copyright = '2024, J. W. Kennington'
 author = 'J. W. Kennington'
 
