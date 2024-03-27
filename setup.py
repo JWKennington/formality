@@ -10,12 +10,12 @@ here = pathlib.Path(__file__).parent.resolve()
 # Get the long description from the README file
 long_description = (here / "README.md").read_text(encoding="utf-8")
 
-setup(name="mathexp",
+setup(name="formality",
       version="0.0.2",
-      description="Mathematical Experiments",
+      description="Formality - Symbolic Mathematics",
       long_description=long_description,
       long_description_content_type="text/markdown",
-      url="https://github.com/JWKennington/mathexp",
+      url="https://github.com/JWKennington/formality",
       author="J. W. Kennington",
       author_email="jameswkennington@gmail.com",
       classifiers=[
@@ -30,7 +30,7 @@ setup(name="mathexp",
           "Programming Language :: Python :: 3 :: Only",
       ],
       keywords="symbolic math, combinatorics, finite groups",
-      packages=['maths'],
+      packages=['formality'],
       python_requires=">=3.7, <4",
       install_requires=["sympy"],
       extras_require={  # Optional
@@ -43,9 +43,9 @@ setup(name="mathexp",
       #     ],
       # },
       project_urls={  # Optional
-          "Bug Reports": "https://github.com/JWKennington/mathexp/issues",
+          "Bug Reports": "https://github.com/JWKennington/formality/issues",
           "Funding": "https://www.buymeacoffee.com/locallytrivial",
-          "Source": "https://github.com/JWKennington/mathexp",
-          "Documentation": "https://mathexp.readthedocs.io/en/latest/"
+          "Source": "https://github.com/JWKennington/formality",
+          "Documentation": "https://formality.readthedocs.io/en/latest/"
       },
       )

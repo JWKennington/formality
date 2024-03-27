@@ -1,4 +1,4 @@
-# MATHematical EXPeriments: `mathexp`
+# Formality `formality`, Symbolic Expression Utilities
 
 [![PyPI version](https://badge.fury.io/py/mathexp.svg)](https://badge.fury.io/py/mathexp)
 [![Build](https://github.com/JWKennington/mathexp/actions/workflows/build.yml/badge.svg)](https://github.com/JWKennington/mathexp/actions/workflows/build.yml)
@@ -12,12 +12,12 @@
 [//]: # ([![Maintainability]&#40;https://api.codeclimate.com/v1/badges/64bec68e4630ae8fbef0/maintainability&#41;]&#40;https://codeclimate.com/github/JWKennington/mathexp/maintainability&#41;)
 
 
-The `mathexp` repo contains a general set symbolic expression utilities, mostly for extending the capabilities of `sympy`. The repo also contains a set of executable scripts for performing various mathematical experiments. Caveat lector.
+The `formality` repo contains a general set symbolic expression utilities, mostly for extending the capabilities of `sympy`. The repo also contains a set of executable scripts for performing various mathematical experiments. Caveat lector.
 
 ## Installation
 
 ```bash
-pip install mathexp
+pip install formality
 ```
 
 ## Sample Usage
@@ -25,10 +25,10 @@ pip install mathexp
 ### Working with integer partitions
 
 ```python
-from maths.comb import partition
+from formality.comb import partition
 
 partition.from_str('3+2+1')
->> > IntegerPartition([3, 2, 1])
+>>> IntegerPartition([3, 2, 1])
 ```
 
 More documentation to come.
