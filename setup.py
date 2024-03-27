@@ -11,7 +11,7 @@ here = pathlib.Path(__file__).parent.resolve()
 long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(name="formality",
-      version="0.0.1",
+      version="0.0.2",
       description="Formality - Symbolic Mathematics",
       long_description=long_description,
       long_description_content_type="text/markdown",
@@ -30,7 +30,7 @@ setup(name="formality",
           "Programming Language :: Python :: 3 :: Only",
       ],
       keywords="symbolic math, combinatorics, finite groups",
-      packages=['maths'],
+      packages=['formality'],
       python_requires=">=3.7, <4",
       install_requires=["sympy"],
       extras_require={  # Optional
